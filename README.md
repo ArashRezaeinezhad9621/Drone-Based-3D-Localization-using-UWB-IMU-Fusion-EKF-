@@ -1,4 +1,4 @@
-📌 Overview
+📌 **Overview**
 
 Accurate localization is a fundamental requirement for autonomous drones, especially in GPS-denied environments such as indoor spaces or urban canyons.
 

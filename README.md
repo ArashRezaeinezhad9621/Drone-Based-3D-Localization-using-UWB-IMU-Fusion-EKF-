@@ -113,13 +113,6 @@ Example outputs:
 2D / 3D trajectory plots
 Error vs time graphs
 
-**▶️ How to Run**
-git clone https://github.com/your-username/drone-uwb-imu-localization.git
-cd drone-uwb-imu-localization
-
-pip install -r requirements.txt
-python src/main.py
-
 **🚀 Future Work**
 Implementation of Unscented Kalman Filter (UKF)
 Integration with Visual Odometry (VIO)

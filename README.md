@@ -11,6 +11,8 @@ These two sources are fused using an Extended Kalman Filter (EKF) to achieve rob
 
 The system leverages the complementary strengths of both sensors:
 
+
+
 IMU provides high-frequency motion data but suffers from drift
 UWB provides absolute positioning but is noisy and delayed
 

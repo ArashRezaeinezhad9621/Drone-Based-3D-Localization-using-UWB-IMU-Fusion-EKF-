@@ -16,29 +16,15 @@ UWB provides absolute positioning but is noisy and delayed
 
 The proposed fusion framework significantly improves localization accuracy and stability.
 
-🧠 Key Contributions
+**🧠 Key Contributions**
 Designed a complete UWB–IMU fusion pipeline for drone localization
 Implemented TDOA-based UWB positioning
 Developed an Extended Kalman Filter (EKF) for nonlinear sensor fusion
 Processed and analyzed real sensor data (IMU + UWB)
 Evaluated system performance through trajectory reconstruction and error analysis
-⚙️ System Architecture
 
-The localization pipeline consists of two main sensing modules and a fusion block:
-
-        IMU (Acceleration, Angular Velocity)
-                     │
-                     ▼
-            Prediction Step (EKF)
-                     │
-                     ▼
-UWB Anchors → TDOA Processing → Measurement Update (EKF)
-                     │
-                     ▼
-              Estimated State
-         (Position, Velocity, Orientation)
-🧮 Methodology
-1. IMU-Based Motion Estimation
+🧮 **Methodology**
+**1. IMU-Based Motion Estimation**
 
 The IMU provides:
 
@@ -54,7 +40,7 @@ Numerical integration → velocity & position
 
 ⚠️ Issue: IMU accumulates drift over time
 
-2. UWB-Based Localization
+**2. UWB-Based Localization**
 
 UWB positioning is performed using Time Difference of Arrival (TDOA):
 
@@ -88,7 +74,8 @@ Nonlinear system modeling
 Linearization using Jacobians
 Measurement validation using residuals
 Rejection of unreliable UWB measurements
-🔧 Hardware Setup
+
+🔧 **Hardware Setup**
 
 The system is implemented using the following components:
 
@@ -101,7 +88,7 @@ Ground Stations: Multiple UWB anchors
 
 The drone communicates with ground stations to collect UWB signals, while onboard sensors provide IMU data.
 
-🧪 Experimental Pipeline
+**🧪 Experimental Pipeline**
 Data acquisition (IMU + UWB)
 Dataset extraction (e.g., bag files)
 IMU preprocessing
@@ -112,7 +99,7 @@ Visualization and analysis (MATLAB / Python)
 
 The system performance is evaluated using:
 
-📍 Trajectory reconstruction
+**📍 Trajectory reconstruction**
 📉 Position error analysis (e.g., RMSE)
 🔄 Comparison between:
 IMU-only estimation (drift)
@@ -123,44 +110,21 @@ Example outputs:
 
 2D / 3D trajectory plots
 Error vs time graphs
-▶️ How to Run
+
+**▶️ How to Run**
 git clone https://github.com/your-username/drone-uwb-imu-localization.git
 cd drone-uwb-imu-localization
 
 pip install -r requirements.txt
 python src/main.py
-📁 Repository Structure
-drone-uwb-imu-localization/
-│
-├── README.md
-├── docs/
-│   ├── project_report.pdf
-│   ├── system_diagram.png
-│
-├── src/
-│   ├── imu_processing.py
-│   ├── uwb_processing.py
-│   ├── ekf.py
-│   ├── main.py
-│
-├── data/
-│   └── sample_data/
-│
-├── results/
-│   ├── trajectory_plots/
-│   ├── error_analysis/
-│
-├── scripts/
-│   └── plot_results.py
-│
-├── requirements.txt
-└── LICENSE
-🚀 Future Work
+
+**🚀 Future Work**
 Implementation of Unscented Kalman Filter (UKF)
 Integration with Visual Odometry (VIO)
 Real-time onboard deployment optimization
 Robustness improvement under NLOS conditions
-📚 References
+
+**📚 References**
 Li et al., Accurate 3D Localization for MAV Swarms using UWB and IMU Fusion
 UWB-based localization methodologies (TDOA, ToA)
 Kalman Filtering and Nonlinear State Estimation
@@ -170,5 +134,5 @@ This project is based on concepts from UWB localization research and extended wi
 
 👤 Author
 
-Arash Rezaei
+Arash Rezaeinezhad
 Research Assistant | Robotics & Deep Learning

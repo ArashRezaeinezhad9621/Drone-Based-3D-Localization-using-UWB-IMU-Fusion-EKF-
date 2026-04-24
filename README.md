@@ -2,10 +2,6 @@
 
 Accurate localization is a fundamental requirement for autonomous drones, especially in GPS-denied environments such as indoor spaces or urban canyons.
 
-
-//[![Watch the video](docs/images/thumbnail.png)](https://www.youtube.com/watch?v=1id49danIK4)
-
-
 This project presents a sensor fusion framework that combines:
 
 Ultra-Wideband (UWB) measurements for absolute positioning

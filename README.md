@@ -15,9 +15,12 @@ UWB provides absolute positioning but is noisy and delayed
 
 The proposed fusion framework significantly improves localization accuracy and stability.
 
-<p align="center">
-  <img src="images/Video.gif"/>
-</p>
+<table align="left">
+  <tr>
+    <td><img src="images/Video.gif" width="400"/></td>
+  </tr>
+</table>
+<br clear="left"/>
 
 **🧠 Key Contributions**
 Designed a complete UWB–IMU fusion pipeline for drone localization

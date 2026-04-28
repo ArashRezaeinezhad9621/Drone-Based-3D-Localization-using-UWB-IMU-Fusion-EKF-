@@ -1,4 +1,4 @@
-📌 **Overview**
+## 📌 Overview
 
 Accurate localization is a fundamental requirement for autonomous drones, especially in GPS-denied environments such as indoor spaces or urban canyons.
 
@@ -10,13 +10,14 @@ Inertial Measurement Unit (IMU) data for motion estimation
 These two sources are fused using an Extended Kalman Filter (EKF) to achieve robust and accurate 3D localization.
 
 The system leverages the complementary strengths of both sensors:
-
-
-
 IMU provides high-frequency motion data but suffers from drift
 UWB provides absolute positioning but is noisy and delayed
 
 The proposed fusion framework significantly improves localization accuracy and stability.
+
+<p align="center">
+  <img src="Images/Video.png" width="500"/>
+</p>
 
 **🧠 Key Contributions**
 Designed a complete UWB–IMU fusion pipeline for drone localization

@@ -16,7 +16,7 @@ UWB provides absolute positioning but is noisy and delayed
 The proposed fusion framework significantly improves localization accuracy and stability.
 
 <p align="center">
-  <img src="images/Video.png" width="500"/>
+  <img src="images/Video.gif" width="500"/>
 </p>
 
 **🧠 Key Contributions**

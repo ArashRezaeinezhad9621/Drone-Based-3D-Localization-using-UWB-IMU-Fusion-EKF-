@@ -17,7 +17,7 @@ The proposed fusion framework significantly improves localization accuracy and s
 
 <table align="center">
   <tr>
-    <td><img src="images/Video.gif" width="400"/></td>
+    <td><img src="images/video.gif"/></td>
   </tr>
 </table>
 <br clear="left"/>
